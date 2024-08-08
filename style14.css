@@ -1,0 +1,138 @@
+.navbar{
+    box-shadow: 0px 3px 20px 5px rgba(34, 51, 68, 0.17);
+    position: sticky;
+    top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+    z-index: 1;
+}
+.navbar li:hover{
+    background-color: rgba(214, 147, 169, 0.642);
+}
+
+.card2{
+    align-items: center;
+    background-color: rgba(172, 167, 167, 0.133);
+}
+.tit{
+    font-size: 90px;
+}
+.card-body{
+    margin-left: 70px;
+}
+
+.card-title{
+    margin-bottom: 40px;
+}
+.card-text{
+    margin-bottom: 40px;
+}
+.card3{
+    position: relative;
+    transition: 1s;
+}
+.price{
+    color: red;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top: 95%;
+    left: 50%;
+
+}
+.mid{
+    display: flex;
+    justify-content: center;
+
+}
+.all{
+    margin-top: 90px;
+}
+.text{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+}
+
+.card3:hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+.text2{
+    text-align: center;
+}
+.card4{
+    position: relative;
+    display: inline;
+}
+.card4 img{
+    border-bottom: 1px solid red;
+}
+.chart{
+    background-color: red;
+    color: white;
+    border: none;
+    position: absolute;
+   bottom: 20%;
+   left: 3%;
+   right: 3%;
+   padding: 10px;
+   font-size: 18px;
+   display: none;
+
+}
+.heart{
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    top: 0%;
+    display: none;
+}
+.card-img-top:hover + .chart{
+    display: block;
+    
+  }
+.card-img-top:hover ~ .heart{
+    display: block;
+  }
+.chart:hover{
+    display: block;
+}
+.heart:hover{
+    display: block;
+}
+.tit2{
+    font-size: 60px;
+}
+.b{
+    padding: 10px 30px;
+}
+.space{
+    margin-top: 90px;
+    align-items: center;
+}
+.space img{
+    margin-left: 150px;
+}
+.card{
+    border: none;
+}
+.all2{
+    max-width: 90%;
+    border-radius: 20px;
+    max-height: 100%;
+    background-color: red;
+    color: white;
+}
+.all2 div div{
+margin: 40px 0px;
+}
+.all2 h1{
+font-size: 20px;
+margin-bottom: 20px;
+}
+.all2 i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
